@@ -43,6 +43,16 @@ git clone https://github.com/Raistrawby/TE_Rust.git
 cd TE_Rust
 ```
 
-## 
+## PostRepet File:
+
+First you will need to create the "big" dataframe of all species with supplementale informations for further analysis.
+
+```bash
+python ConfigDFRepet.py
+```
+
+## 1) Curation Step
+
+Reclassify based on the highest % or in the percent from the threshold given.
 
 
