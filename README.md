@@ -53,6 +53,15 @@ python ConfigDFRepet.py
 
 ## 1) Curation Step
 
-Reclassify based on the highest % or in the percent from the threshold given.
+Reclassify based on the highest % or in the percent from the threshold (50%).
 
+``` bash
+python ClassifyConflict.py 
+```
+
+## 2) Curation Step with MCHelper and CDHIT
+
+``` bash
+python Curation.py -R fileRepet.csv -M fileMCHelper -C clusterfileCDHIT
+```
 
