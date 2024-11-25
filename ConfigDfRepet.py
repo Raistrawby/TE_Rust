@@ -1,6 +1,5 @@
 #!/usr/bin/python
 """*********************************************************************
-Rusty
 Copyright: 2024 INRAE https://www.inrae.fr
 License:
   CeCILL: http://www.cecill.info/index.fr.html
