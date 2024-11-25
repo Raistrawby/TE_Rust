@@ -7,7 +7,6 @@ License:
   See the LICENCE file in the project's top-level directory for details.
 Authors:
   * Emma CORRE, Ecogenomics of interactions team, IAM
-
 ************************************************************************"""
 """
 Change the REPET_Summary in a proper output with multiple specie
@@ -117,7 +116,6 @@ def cheminacces():
   dfMelap = readpd(Melap,"Melampsora allii- populina 12AY07 v1.0", lenMelap)
   dfAZ2A = readpd(AZ2A," Puccinia striiformis f. sp. tritici haplotype A", lenAZ2A)
   dfAZ2B = readpd(AZ2B," Puccinia striiformis f. sp. tritici haplotype B", lenAZ2B)
-  # dfPt76 = readpd(Pt76,"Puccinia triticina", lenPt76)
   dfPt76A = readpd(Pt76A,"Puccinia triticina A", lenPt76A)
   dfPt76B = readpd(Pt76B,"Puccinia triticina Btig", lenPt76B)
   dfPhord = readpd(Phord,"Puccinia hordei isolate 560", lenPhord)
