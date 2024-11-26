@@ -48,7 +48,7 @@ cd TE_Rust
 First you will need to create the "big" dataframe of all species with supplementale informations for further analysis.
 
 ```bash
-python ConfigDFRepet.py
+python ./script/ConfigDFRepet.py
 ```
 
 ## 1) Curation Step
@@ -56,12 +56,12 @@ python ConfigDFRepet.py
 Reclassify based on the highest % or in the percent from the threshold (50%).
 
 ``` bash
-python ClassifyConflict.py 
+python ./script/ClassifyConflict.py 
 ```
 
 ## 2) Curation Step with MCHelper and CDHIT
 
 ``` bash
-python Curation.py -R fileRepet.csv -M fileMCHelper -C clusterfileCDHIT
+python ./script/Curation.py -R fileRepet.csv -M fileMCHelper -C clusterfileCDHIT
 ```
 
